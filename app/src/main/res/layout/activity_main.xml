@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ravi.customadapter.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/colorimg">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textStyle="bold"
+        android:id="@+id/b1"
+        android:textColor="@color/colorPrimary" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RELATIVE"
+        android:textStyle="bold"
+        android:id="@+id/b2"
+        android:textColor="@color/colorPrimary" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLOURS"
+        android:textStyle="bold"
+        android:id="@+id/b3"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHRASE"
+        android:textStyle="bold"
+        android:id="@+id/b4"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+
+</LinearLayout>
+
